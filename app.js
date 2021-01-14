@@ -1,25 +1,34 @@
-//"Chapter#35-"
+//"Other"
 
-function agecalculator(){
-var year = prompt("Enter year")
-var month = prompt("Enter month")
-var date = prompt("Enter date")
-var birthdate = new Date(month + date + ", " + year)
-var a = new Date()
-var current = a.getTime()
-var birth = birthdate.getTime()
-var total = (current-birth)/(1000*60*60*24*30*12)
-alert(total)}
+/*var num = "25"
+if(num == 25){
+    alert("Match")
+}*/
+
+
+//"Functions"
+
+function agecalculator() {
+    var year = prompt("Enter year")
+    var month = prompt("Enter month")
+    var date = prompt("Enter date")
+    var birthdate = new Date(month + date + ", " + year)
+    var a = new Date()
+    var current = a.getTime()
+    var birth = birthdate.getTime()
+    var total = (current - birth) / (1000 * 60 * 60 * 24 * 30 * 12)
+    alert(total)
+}
 
 // agecalculator()
 
-function add(a,b,c){
-    alert(a+b+c)
+function add(a, b, c) {
+    alert(a + b + c)
 }
 
 //add(5,7,4)
 
-function add2(){
+function add2() {
     var a = 5
     var b = 10
     var c = a + b
@@ -28,4 +37,81 @@ function add2(){
 
 /*var z = add2()
 alert(z)*/
+
+
+function Clothes() {
+    var amount = +prompt("Enter an amount")
+    var month = prompt("Enter a month")
+    var lower = month.toLowerCase()
+    if (lower == "january" || lower == "jan") {
+        var final = amount - (amount * 5 / 100)
+        alert(final)
+    } else {
+        var final = amount - (amount * 2 / 100)
+        alert(final)
+    }
+}
+
+
+// Clothes()
+
+function calculate(finalamount) {
+    var a = finalamount - 100
+    return a
+}
+
+function total() {
+    var amount = calculate(450)
+    document.write(amount)
+}
+
+// total()
+
+
+// var day = prompt("Enter day")
+// var lower = day.toLowerCase()
+
+// switch (lower) {
+//     case "mon":
+//         alert("Working day")
+//         break
+//     case "tue":
+//         alert("Second working day")
+//         break
+//     case "wed":
+//         alert("Third working day")
+//         break
+//     case "thurs":
+//         alert("Fourth working day")
+//         break
+//     case "fri":
+//         alert("Fifth working day")
+//         break
+//     case "sat":
+//         alert("First holiday")
+//         break
+//     case "sun":
+//         alert("Second holiday")
+//         break
+//     default:
+//         alert("Enter correct day")
+//         break
+// }
+
+
+// var i = 1
+// var table = +prompt()
+// while(i <= 10){
+//     document.write("<h2>" + table + "x" + i + "=" + (table*i) +"</h2><hr>")
+//     i++
+// }
+
+
+// var i = 0
+// do {
+//     document.write(i + "<br>")
+//     i++
+//     document.write(i + "<hr>")
+// } while (i < 10)
+
 
