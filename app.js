@@ -1,69 +1,64 @@
-//"Other"
-
 /*var num = "25"
 if(num == 25){
     alert("Match")
 }*/
 
-
-//"Functions"
-
-function agecalculator() {
-    var year = prompt("Enter year")
-    var month = prompt("Enter month")
-    var date = prompt("Enter date")
-    var birthdate = new Date(month + date + ", " + year)
-    var a = new Date()
-    var current = a.getTime()
-    var birth = birthdate.getTime()
-    var total = (current - birth) / (1000 * 60 * 60 * 24 * 30 * 12)
-    alert(total)
-}
+// function agecalculator() {
+//     var year = prompt("Enter year")
+//     var month = prompt("Enter month")
+//     var date = prompt("Enter date")
+//     var birthdate = new Date(month + date + ", " + year)
+//     var a = new Date()
+//     var current = a.getTime()
+//     var birth = birthdate.getTime()
+//     var total = (current - birth) / (1000 * 60 * 60 * 24 * 30 * 12)
+//     alert(total)
+// }
 
 // agecalculator()
 
-function add(a, b, c) {
-    alert(a + b + c)
-}
+// function add(a, b, c) {
+//     alert(a + b + c)
+// }
 
 //add(5,7,4)
 
-function add2() {
-    var a = 5
-    var b = 10
-    var c = a + b
-    return c
-}
+// function add2() {
+//     var a = 5
+//     var b = 10
+//     var c = a + b
+//     return c
+// }
 
 /*var z = add2()
 alert(z)*/
 
 
-function Clothes() {
-    var amount = +prompt("Enter an amount")
-    var month = prompt("Enter a month")
-    var lower = month.toLowerCase()
-    if (lower == "january" || lower == "jan") {
-        var final = amount - (amount * 5 / 100)
-        alert(final)
-    } else {
-        var final = amount - (amount * 2 / 100)
-        alert(final)
-    }
-}
+// function Clothes() {
+//     var amount = +prompt("Enter an amount")
+//     var month = prompt("Enter a month")
+//     var lower = month.toLowerCase()
+//     if (lower == "january" || lower == "jan") {
+//         var final = amount - (amount * 5 / 100)
+//         alert(final)
+//     } else {
+//         var final = amount - (amount * 2 / 100)
+//         alert(final)
+//     }
+// }
 
 
 // Clothes()
 
-function calculate(finalamount) {
-    var a = finalamount - 100
-    return a
-}
+// function calculate(finalamount) {
+//     var a = finalamount - 100
+//     return a
+// }
 
-function total() {
-    var amount = calculate(450)
-    document.write(amount)
-}
+// function total() {
+//     var amount = calculate(450)
+//     document.write(amount)
+// }
 
 // total()
 
@@ -114,4 +109,33 @@ function total() {
 //     document.write(i + "<hr>")
 // } while (i < 10)
 
+// function food(){
+//     alert("Hello")
+// }
 
+// function login(){
+//     var a = document.getElementById("username").value
+//     var b = document.getElementById("password").value
+//     if(a == "" || b == ""){
+//         alert("Value is incorrect")
+//     } else {
+//         alert("Value is  correct")
+//     }
+// }
+
+// function error() {
+//     var error = "Enter username"
+//     var a = document.getElementById("username").value
+//     var b = document.getElementById("user")
+//     var passerror = "Enter password"
+//     var c = document.getElementById("password").value
+//     var d = document.getElementById("pass")
+//     if (a == "") {
+//         b.innerHTML = error
+//     } else if (c == "") {
+//         d.innerHTML = passerror
+//     } else { 
+//         document.getElementById("succes").style.display = "block"
+//         document.getElementById("form").style.display = "none"
+//     }
+// }
