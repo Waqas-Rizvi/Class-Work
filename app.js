@@ -139,3 +139,17 @@ alert(z)*/
 //         document.getElementById("form").style.display = "none"
 //     }
 // }
+
+// function mainn(){
+//     var a = document.getElementById("subclass")
+//     a.className = "maain"
+// }
+
+// function remove(){
+//     var a = document.getElementById("subclass")
+//     a.style.display = "none"
+// }
+
+
+//"Calculator"
+
