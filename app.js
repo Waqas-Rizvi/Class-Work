@@ -150,6 +150,46 @@ alert(z)*/
 //     a.style.display = "none"
 // }
 
+//setTimeout(functionname, miliseconds) => aik martaba chalata h
 
-//"Calculator"
+// function hello(){
+//     alert("Waqas")
+// }
+// setTimeout(hello, 2000);
+
+
+//setInterval() => bar bar chalata h
+
+// function hello(){
+//     console.log("Waqas")
+// }
+// setInterval(hello, 1000);
+
+
+//clearInterval() .
+
+// function add(){
+//     var parent = document.getElementById("main")
+//     var newelement = document.createElement("p")
+//     var text = prompt("Add", "Enter any text")
+//     var a = document.createTextNode(text)
+//     newelement.appendChild(a)
+//     parent.appendChild(newelement)
+// }
+
+
+// function Student(name,age,inst){
+//     this.StudentName = name,
+//     this.age = age,
+//     this.institute = inst
+// }
+// var arr = []
+// function addStudent(){
+//     var name = prompt("Enter Name")
+//     var age = prompt("Enter Age")
+//     var inst = prompt("Enter Institute")
+//     var newStudent = new Student(name,age,inst)
+//     arr.push(newStudent)
+//     console.log(arr)
+// }
 
